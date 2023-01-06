@@ -1,0 +1,136 @@
+select *{
+    padding:0;
+    margin:0;
+}
+
+body{
+       
+        padding:0 2.5%;
+        max-width: 1400px;
+        margin:0 auto;
+}
+
+.flex{
+    display:flex;
+}
+/*   Header  */
+
+header{
+    justify-content: space-between;
+    height:100px;
+}
+img#logo-header{
+    overflow: hidden;
+    width:30%;  
+}
+ul.nav-header{
+    list-style: none;
+}
+li.nav-header{
+    padding:20px;
+}
+div#header{
+    justify-content: space-between;
+}
+div.cover{
+    width:auto;
+    background: url("Images/backgroung_image.jpg") no-repeat center/cover;
+    width : 100%;
+    height:400px;
+    justify-content:center;
+    align-items: center;
+}
+section.presentation{
+    flex-direction:column;
+    width:70%;
+    margin:0 auto;
+    text-align:center;
+}
+
+img#cover-logo{
+width:200px;
+}
+#center-cover{
+    flex-direction:column;
+    align-items: center;
+}
+#center-cover h1{
+    color:white;
+    font-size:28px;
+    font-weight:200;
+}
+.skills-presentation{
+    flex-direction:column;
+    align-items: center;
+}
+div.skills-presentation{
+    flex-direction:row;
+    justify-content:center;
+}
+
+
+article.skill{
+    padding:0 20px;
+    margin:10px 0 30 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width:20%;
+}
+.skill{
+    align-content:center;
+    justify-content: center;
+}
+p.skill{
+    text-align: center;
+    height:100px;
+}
+blockquote.skill p{
+    width:60%;
+    margin:30px auto;
+}
+footer{
+    color:white;
+    flex-direction:column;
+    background-color: blueviolet;
+    align-items:center   
+}
+.fa-brands{
+    padding:5px 50px;
+    width:30px;
+}
+.footer-menu{
+    justify-content:space-around;
+    width:100%;
+    padding:0 100px;
+}
+.footer-menu h3{
+    font-size: 18px;
+    color:rgb(221, 158, 226);
+}
+.footer-menu div{
+    justify-content:center;
+
+}
+address{
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
